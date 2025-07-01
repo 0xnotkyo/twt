@@ -16,35 +16,25 @@
 ## Usage
 
 - post tweets from terminal like this
-
-→ On Linux:
-    
+   
 ```bash
 python3 twt.py "this tweet have been posted from my terminal"
 ```
 
-→ On Windows:
-
- ```bash
-python twt.py "this tweet have been posted from my terminal"
-```
-
 ## Installation
 
-1. Get API keys from [developer.twitter.com](https://developer.twitter.com/)
+1. Get API keys from [developer.twitter.com](https://developer.twitter.com/).
 
    - Make a project/app, enable OAuth 1.0a
    - Set to "Read and Write" perms (IMPORTANT)
-   - Copy your API Key and API Secret (also called `consumer_key` and `consumer_secret`).
+   - Copy your API Key and API Secret (also called `consumer_key` and `consumer_secret`)
 
-2. Create a file named `tokens.json` in the same directory as the script.
+2. Create a file named `secrets.json` in the same directory as the script.
 
 ```json
 {
-  "credentials": {
-    "consumer_key": "your_api_key",
-    "consumer_secret": "your_api_secret"
-  }
+  "consumer_key": "your_api_key",
+  "consumer_secret": "your_api_secret"
 }
    ```
 
@@ -68,10 +58,14 @@ Paste the PIN here:
 ```
 7. The script will complete the OAuth process and you will be able to post tweets using the script normally.
 
+<div align="center">
+    <img height="300" src="./assets/twt.gif" />
+</div>
+
 ## Requirements
 
-- Python 3.x installed.
-- `requests_oauthlib` library installed.
+- Python 3.x installed
+- `requests_oauthlib` library installed
 
 ## Docs
 
