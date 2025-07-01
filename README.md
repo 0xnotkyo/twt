@@ -59,7 +59,7 @@ Paste the PIN here:
 7. The script will complete the OAuth process and you will be able to post tweets using the script normally.
 
 <div align="center">
-    <img height="300" src="./assets/twt.gif" />
+    <img height="300" src="./assets/twt_terminal.gif" />
 </div>
 
 ## Requirements
