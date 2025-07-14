@@ -6,14 +6,14 @@
     <img height="300" src="./assets/twt.png" />
 </div>
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Usage](#usage)
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Docs](#docs)
 
-## Usage
+## 🚀 Usage
 
 - post tweets from terminal like this
    
@@ -21,7 +21,7 @@
 python3 twt.py "this tweet have been posted from my terminal"
 ```
 
-## Installation
+## ⚙️ Installation
 
 1. Get API keys from [developer.twitter.com](https://developer.twitter.com/).
 
@@ -62,12 +62,12 @@ Paste the PIN here:
     <img height="300" src="./assets/twt_terminal.gif" />
 </div>
 
-## Requirements
+## 📦 Requirements
 
 - Python 3.x installed
 - `requests_oauthlib` library installed
 
-## Docs
+## 📖 Docs
 
 For more information about Twitter API OAuth, see:
 
