@@ -74,8 +74,6 @@ For more information about Twitter API OAuth, see:
 - [Twitter Developer Documentation](https://docs.x.com/resources/fundamentals/authentication/oauth-1-0a/api-key-and-secret)
 - [Requests-oauthlib Documentation](https://requests-oauthlib.readthedocs.io/en/latest/)
 
-&nbsp;
-
 ---
 
 **Made with ❤️ by [0xnotkyo](https://github.com/0xnotkyo)** 
